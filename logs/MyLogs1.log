@@ -1,0 +1,4 @@
+[INFO ] 2019-02-15 22:36:16.026 [main] log4jDemo - this is a info msg
+[ERROR] 2019-02-15 22:36:16.030 [main] log4jDemo - this is error msg
+[WARN ] 2019-02-15 22:36:16.030 [main] log4jDemo - This is warn msg
+[FATAL] 2019-02-15 22:36:16.030 [main] log4jDemo - This is warn msg
