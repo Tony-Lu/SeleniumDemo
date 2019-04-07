@@ -1,25 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="8422" started-at="2019-03-22T02:06:29Z" finished-at="2019-03-22T02:06:37Z">
+  <suite name="Default suite" duration-ms="11211" started-at="2019-03-24T04:06:24Z" finished-at="2019-03-24T04:06:35Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="8422" started-at="2019-03-22T02:06:29Z" finished-at="2019-03-22T02:06:37Z">
-      <class name="test.testNG_test2_GoogleSearch2">
-        <test-method status="PASS" signature="setUpTest()[pri:0, instance:test.testNG_test2_GoogleSearch2@4a87761d]" name="setUpTest" is-config="true" duration-ms="5818" started-at="2019-03-22T02:06:29Z" finished-at="2019-03-22T02:06:35Z">
+    <test name="Default test" duration-ms="11211" started-at="2019-03-24T04:06:24Z" finished-at="2019-03-24T04:06:35Z">
+      <class name="utils.excelDataProvider">
+        <test-method status="PASS" signature="setUpTest()[pri:0, instance:utils.excelDataProvider@66d1af89]" name="setUpTest" is-config="true" duration-ms="4078" started-at="2019-03-24T04:06:24Z" finished-at="2019-03-24T04:06:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpTest -->
-        <test-method status="PASS" signature="googleSearch()[pri:0, instance:test.testNG_test2_GoogleSearch2@4a87761d]" name="googleSearch" duration-ms="1635" started-at="2019-03-22T02:06:35Z" finished-at="2019-03-22T02:06:37Z">
+        <test-method status="PASS" signature="test1(java.lang.String, java.lang.String)[pri:0, instance:utils.excelDataProvider@66d1af89]" name="test1" duration-ms="2264" started-at="2019-03-24T04:06:29Z" data-provider="test1data" finished-at="2019-03-24T04:06:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- googleSearch -->
-        <test-method status="PASS" signature="tearDownTest()[pri:0, instance:test.testNG_test2_GoogleSearch2@4a87761d]" name="tearDownTest" is-config="true" duration-ms="941" started-at="2019-03-22T02:06:37Z" finished-at="2019-03-22T02:06:37Z">
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test1(java.lang.String, java.lang.String)[pri:0, instance:utils.excelDataProvider@66d1af89]" name="test1" duration-ms="1363" started-at="2019-03-24T04:06:31Z" data-provider="test1data" finished-at="2019-03-24T04:06:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin124]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDownTest -->
-      </class> <!-- test.testNG_test2_GoogleSearch2 -->
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test1(java.lang.String, java.lang.String)[pri:0, instance:utils.excelDataProvider@66d1af89]" name="test1" duration-ms="1401" started-at="2019-03-24T04:06:33Z" data-provider="test1data" finished-at="2019-03-24T04:06:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin125]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test1(java.lang.String, java.lang.String)[pri:0, instance:utils.excelDataProvider@66d1af89]" name="test1" duration-ms="1308" started-at="2019-03-24T04:06:34Z" data-provider="test1data" finished-at="2019-03-24T04:06:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin126]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- utils.excelDataProvider -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

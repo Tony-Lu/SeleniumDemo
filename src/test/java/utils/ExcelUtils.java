@@ -27,12 +27,12 @@ public class ExcelUtils {
 	
 	}
 
-	public static void main(String[] args) {
-
-		//getRowCount();
-//		getCellDataString(0, 0);
-//		getCellDataNumeric(1, 1);
-	}
+//	public static void main(String[] args) {
+//
+//		//getRowCount();
+////		getCellDataString(0, 0);
+////		getCellDataNumeric(1, 1);
+//	}
 
 	public static int getRowCount() {
 		
@@ -58,12 +58,12 @@ public class ExcelUtils {
 		return cellData;
 	}
 	
-	public static void getCellDataNumeric(int rowNum, int colNum) {
+	public static double getCellDataNumeric(int rowNum, int colNum) {
 		
 		//double cellData = (Double) null;
 		double cellData1 = sheet.getRow(rowNum).getCell(colNum).getNumericCellValue();			
 		//System.out.println(cellData1);
-		//return cellData1;
+		return cellData1;
 	}
 	
 		
